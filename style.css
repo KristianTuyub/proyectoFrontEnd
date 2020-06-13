@@ -556,7 +556,7 @@ button {
     overflow: visible;
 }
 
-.social-icon {
+.scl-icon {
     padding: 0 0 0 64px;
     align-self: flex-end;
     text-align: right;
@@ -708,7 +708,7 @@ button {
         width: 120px;
     }
 
-    .social-icon {
+    .scl-icon {
         padding: 0 0 0 48px;
     }
 
@@ -984,7 +984,7 @@ button {
         padding-top: 32px;
     }
 
-    .social-icon {
+    .scl-icon {
         padding: 0 0 0 0;
         margin-left: auto;
         margin-right: auto;
