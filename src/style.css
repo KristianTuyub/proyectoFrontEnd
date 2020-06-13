@@ -543,14 +543,14 @@ button {
 }
 
 .copyright { grid-area: 1 / 1 / 2 / 2; }
-.social-icons { grid-area: 1 / 2 / 2 / 3; }
+.scl-icons { grid-area: 1 / 2 / 2 / 3; }
 
 .copyright {
     margin-top: auto;
     margin-bottom: auto;
 }
 
-.social-icons {
+.scl-icons {
     margin: 0;
     padding: 0;
     overflow: visible;
@@ -562,7 +562,7 @@ button {
     text-align: right;
 }
 
-.social-icons {
+.scl-icons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr;
@@ -980,7 +980,7 @@ button {
         margin-bottom: 8px;
     }
 
-    .social-icons {
+    .scl-icons {
         padding-top: 32px;
     }
 
