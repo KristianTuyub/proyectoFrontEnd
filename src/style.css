@@ -44,7 +44,7 @@ body {
     box-sizing: border-box;
     font-family: var(--primaryFont);
     font-size: var(--navbar-text-size);
-    /* background-color: rgb(172, 169, 211); */ /* USED FOR MARKUP HELPER */ 
+    /* background-color: rgb(172, 169, 211); */ /* USED FOR MARKUP HELPER */
     overflow: auto;
 }
 
@@ -84,7 +84,7 @@ body {
     text-align: center;
     padding-top: var(--standard-size);
     padding-bottom: var(--standard-size);
-    /* background-color: aqua; */ /* USED FOR MARKUP HELPER */ 
+    /* background-color: aqua; */ /* USED FOR MARKUP HELPER */
     width: 88px;
     height: 64px;
     display: block;
@@ -123,23 +123,23 @@ button {
     border: none;
     font: inherit;
     color: inherit;
-    background-color: transparent;    
+    background-color: transparent;
     cursor: pointer;
 }
 
-.banner {        
-    width: 100%;    
+.banner {
+    width: 100%;
     justify-content: center;
     height: 100vh;
 }
 
-.container {    
-    display: flex;        
+.container {
+    display: flex;
     width: 100%;
     padding: 100px;
 }
 
-.content {        
+.content {
     width: 50%;
     height: 100%;
 }
@@ -149,21 +149,21 @@ button {
     display: block;
 }
 
-.text1 {    
+.text1 {
     font-size: 24px;
     font-weight: 700;
 }
 
-.text2 {    
-    font-size: 40px;    
+.text2 {
+    font-size: 40px;
     margin-bottom: 32px;
     font-weight: 700;
 }
 
-.text {    
+.text {
     font-family: var(--secundaryFont);
-    font-size: 24px;   
-    margin-bottom: 32px; 
+    font-size: 24px;
+    margin-bottom: 32px;
     font-weight: 300;
 }
 
@@ -176,7 +176,7 @@ button {
     width: 208px;
     height: 64px;
     font-family: var(--primaryFont);
-    font-size: 24px;    
+    font-size: 24px;
 }
 
 .content > div > div > button:hover {
@@ -184,16 +184,16 @@ button {
 }
 
 .contact-us {
-    background-color: var(--orange);            
-    color: white;    
+    background-color: var(--orange);
+    color: white;
 }
 
 .contact-us:hover {
-    background-color: var(--orange);    
+    background-color: var(--orange);
 }
 
 .gosh {
-    margin-left: 48px;    
+    margin-left: 48px;
     color: var(--blue);
 }
 
@@ -212,15 +212,15 @@ button {
 }
 
 .whoWeAre .text2{
-    text-align: center;    
+    text-align: center;
 }
 
 .text4 {
-    font-size: 18px;   
-    font-weight: 400; 
-    margin-top: -32px;    
-    color: var(--blue);  
-    text-align: center;  
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: -32px;
+    color: var(--blue);
+    text-align: center;
 }
 
 .quote {
@@ -231,15 +231,15 @@ button {
 }
 
 .ceoImg {
-    content: url('../assets/co.svg');
+    content: url('assets/co.svg');
     width: 40px;
-    height: 40px;    
+    height: 40px;
     display:block;
     margin:auto;
 }
 
-.imgContainer {  
-    margin-top: 24px;              
+.imgContainer {
+    margin-top: 24px;
 }
 
 .fadeGrey {
@@ -252,13 +252,13 @@ button {
     display: block;
 }
 
-.testimony p {    
-    font-family: var(--primaryFont);        
+.testimony p {
+    font-family: var(--primaryFont);
     text-align: center;
     font-size: 32px;
 }
 
-.startups {        
+.startups {
     font-weight: 400;
 }
 
@@ -275,7 +275,7 @@ button {
 
 .card {
     position: relative;
-    width: 344px;    
+    width: 344px;
     background-color:var(--blue);
     border-radius: 5px;
     margin-top: 24px;
@@ -287,11 +287,11 @@ button {
     justify-content: center;
 }
 
-.devImg {    
-    border-radius: 100px;  
-    width: 82px;     
+.devImg {
+    border-radius: 100px;
+    width: 82px;
     object-fit: cover;
-    border: 3px solid white;    
+    border: 3px solid white;
 }
 
 .card h3 {
@@ -317,14 +317,14 @@ button {
     position: absolute;
     top: 24px;
     left: 24px;
-    z-index: 1;    
+    z-index: 1;
     border-radius: 5px;
     color: white;
     font-family: var(--primaryFont);
-    font-size: 16px;           
+    font-size: 16px;
 }
 
-.tags {    
+.tags {
     background-color: rgb(27, 78, 126);
     border-radius: 0px 0px  5px 5px;
     padding-bottom: 32px;
@@ -332,8 +332,8 @@ button {
 
 .tags p {
     color: white;
-    padding: 16px;    
-    font-family: var(--secundaryFont);        
+    padding: 16px;
+    font-family: var(--secundaryFont);
 }
 
 .tg {
@@ -341,7 +341,7 @@ button {
     font-family: var(--primaryFont);
     color: white;
     margin-right: 8px;
-    margin-bottom: 8px;    
+    margin-bottom: 8px;
     font-size: 10px;
     padding: 2px;
     display: inline-block;
@@ -353,7 +353,7 @@ button {
 
 .flexbox div {
     padding-left: 16px;
-    padding-right: 16px;    
+    padding-right: 16px;
 }
 
 /* Start Contact Page Style */
@@ -444,19 +444,19 @@ button {
     border: none;
     font: inherit;
     color: inherit;
-    background-color: transparent;    
+    background-color: transparent;
     cursor: pointer;
 
     /* Style */
     width: 160px;
     height: 56px;
-    background-color: var(--orange);            
+    background-color: var(--orange);
     color: white;
     font-size: 20px;
 }
 
 .form-submit-button:hover {
-    background-color: var(--orange);    
+    background-color: var(--orange);
 }
 
 .text-area-input {
@@ -487,7 +487,7 @@ button {
 
 .container-contact {
     height: 50vh;
-    display: flex;        
+    display: flex;
     width: 100%;
     padding: 100px;
 }
@@ -503,7 +503,7 @@ button {
 .contact-image {
     width: 100vw;
     height: 40vh;
-    background-image: url("../assets/contact.jpg"); /* The image used */
+    background-image: url("assets/contact.jpg"); /* The image used */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
@@ -600,7 +600,7 @@ button {
     }
 
     /* HP */
-    .container {        
+    .container {
         padding: 80px;
     }
 
@@ -613,19 +613,19 @@ button {
     }
 
     .content > div > p:nth-child(5){
-        display: none;  
+        display: none;
     }
 
     .btn-group {
-        display: none;  
+        display: none;
     }
 
     .content > img {
-        content:url('../assets/cbimage.jpg');        
+        content:url('assets/cbimage.jpg');
     }
 
     .ceoPhrase {
-        flex-direction: column;                           
+        flex-direction: column;
     }
 
     .whoWeAre {
@@ -637,7 +637,7 @@ button {
     }
 
     .ceo {
-        height: 192px;        
+        height: 192px;
     }
 
     .whoWeAre .text4 {
@@ -715,7 +715,7 @@ button {
     .social-svg-img {
         width: 24px;
         height: 24px;
-    
+
         margin-top: auto;
         margin-bottom: auto;
     }
@@ -724,7 +724,7 @@ button {
 }
 
 /* Mobile */
-@media only screen and (max-width: 425px){    
+@media only screen and (max-width: 425px){
     /* Navbar */
 
     .flex-items {
@@ -792,24 +792,24 @@ button {
         height: 2px;
         background: inherit;
     }
-    
+
     /* Moves Line Down */
     .flex-container .hamburger > div::after {
         top: 10px;
     }
-    
+
     /* Toggler Animation */
     .flex-container .toggler:checked + .hamburger > div {
         transform: rotate(135deg);
     }
-    
+
     /* Turns Lines Into X */
     .flex-container .toggler:checked + .hamburger > div:before,
     .flex-container .toggler:checked + .hamburger > div:after {
         top: 0;
         transform: rotate(90deg);
     }
-    
+
     /* Rotate On Hover When Checked */
     .flex-container .toggler:checked:hover + .hamburger > div {
         transform: rotate(225deg);
@@ -831,7 +831,7 @@ button {
         justify-content: center;
         align-items: center;
     }
-    
+
     .flex-container .toggler:checked ~ .flex-items > .flex-item {
         transform: scale(1);
         transition-duration: var(--menu-speed);
@@ -849,14 +849,14 @@ button {
         display: block;
         align-self: center;
     }
-    
+
     .flex-container .flex-items > div > div > ul > li {
         list-style: none;
         color: var(--grey2);
         font-size: 1.5rem;
         padding: 1rem;
     }
-    
+
     .flex-container .flex-items > .flex-item {
         color: inherit;
         text-decoration: none;
@@ -867,9 +867,9 @@ button {
     .content {
         width: 100%;
     }
-    .banner .container {        
+    .banner .container {
         flex-direction: column-reverse;
-    }    
+    }
 
     .content > div:nth-child(1) {
         text-align: center;
@@ -1002,6 +1002,6 @@ button {
         width: 24px;
         height: 24px;
     }
-    
+
     /* End Footer Style */
 }
